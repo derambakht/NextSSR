@@ -1,0 +1,18 @@
+{
+  "name": "ssr-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "prod": "next export"
+  },
+  "dependencies": {
+    "next": "10.0.4",
+    "next-pwa": "^5.0.3",
+    "nprogress": "^0.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
