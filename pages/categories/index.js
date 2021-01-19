@@ -3,7 +3,7 @@ import Link from 'next/link'
 const index = ({categories}) => {
     return (
         <div>
-            <h1>Category List</h1>
+            <h1>Category List with getServerSideProps</h1>
             <ul>
                 {categories.map(item => 
                     <li key={item.id}>
