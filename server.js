@@ -21,8 +21,8 @@ app.prepare().then(() => {
       handle(req, res, parsedUrl)
     }
     
-  }).listen(3030, (err) => {
+  }).listen(3040, (err) => {
     if (err) throw err
-    console.log('> Ready on http://localhost:3030')
+    console.log('> Ready on http://localhost:3040')
   })
 })

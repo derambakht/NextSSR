@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }) {
 <meta property='og:url' content='https://yourdomain.com' />
 <meta property='og:image' content='https://yourdomain.com/public/icons/apple-touch-icon.png' />
     </Head>
-      <h1>Nextjs public SSR App</h1>
+      <h1>Nextjs public SSR App - React SSR With Nextjs</h1>
       <ul>
         <li><Link href="/">Home</Link></li>
         <li><Link href="/posts">Blog</Link></li>
